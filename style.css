@@ -1,0 +1,265 @@
+.top
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("background-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    height: 900px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 50px;
+}
+
+
+/* .dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 56px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+} */
+
+/* .location_button {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  background-color: #e7e3e3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: scroll
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.location_button:hover .dropdown-content {
+  display: block;
+}
+ */
+.dropbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.dropbtn
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 7 0px;
+    width: 270px;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 10px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(42, 41, 41);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+
+  .one , .two , .three
+  {
+    margin-top: 150px;
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(156, 163, 163);
+    border-radius: 20px;
+    margin-left: 120px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border: solid;
+    border-width: 6px;
+  }
+
+  .one:hover , .two:hover , .three:hover
+  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .one
+  {
+    margin-left: 20px;
+    background-image: url("india1.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-color: #782920;
+  }
+  
+  .two
+  {
+    background-image: url("japan1.jpg");
+    background-size: cover;
+    color: #680404;
+    border-color: #496784;
+  }
+  
+  .three
+  {
+    background-image: url("australia.jpg");
+    background-size: cover;
+    color: #704b36;
+    border-color: rgb(149, 149, 149);
+  }
+
+  .footer
+  {
+    height: 65px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 00px;
+  }
+
+  .Text
+  {
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #565656;
+  }
+
+  .posts
+  {
+    margin-top: 100px;
+    height: 720px;
+    background-color: #000000;
+  }
+
+  .post_text
+  {
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 200px;
+    font-size: 40px;
+    color: #e7e3e3;
+  }
+
+  .Text_up
+  {
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+  }
+
+  .Text_down
+  {
+    width: 600px;
+    position: relative;
+    top: -30px;
+  }
+
+  html
+  {
+    scroll-behavior: smooth;
+  }
+
+  a
+  {
+    text-decoration: none;
+    text-transform: none;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 5vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 80vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+svg path
+{
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: 0.25;
+}
+
+svg path:hover
+{
+    fill: #006284;
+    transition: 0.3s;
+    cursor: pointer;
+}

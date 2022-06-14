@@ -300,6 +300,16 @@
     {
       max-height: 500px;
     }
+
+    .top
+    {
+      max-height: 400px;
+    }
+
+    .dropbtn
+    {
+      top: 30%;
+    }
   }
 
   @media (max-width: 550px)

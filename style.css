@@ -6,8 +6,7 @@
 }
 
 .dropbtn:hover {
-  /* background-color: rgb(110, 110, 110); */
-  color: black;
+  color: rgb(183, 183, 183);
 }
 
 .dropbtn
@@ -19,11 +18,12 @@
     height: 7 0px;
     width: 270px;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 60px;
     font-weight: bolder;
-    color: rgb(110, 110, 110);
-    /* background-color: #000; */
+    color: rgb(255, 255, 255);
     border-radius: 10px;
+    background-color: transparent;
+    border-width: 0;
 }
 
 
@@ -388,6 +388,11 @@ svg path:hover
   {
     height: 40vw;
     min-height: 400px;
+  }
+
+  .dropbtn
+  {
+    font-size: 40px;
   }
 
 }

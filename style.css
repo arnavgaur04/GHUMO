@@ -6,7 +6,7 @@
 }
 
 .dropbtn:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(110, 110, 110);
   color: black;
 }
 
@@ -21,7 +21,7 @@
     text-align: center;
     font-size: xxx-large;
     font-weight: bolder;
-    color: rgb(255, 255, 255);
+    color: rgb(110, 110, 110);
     background-color: #000;
     border-radius: 10px;
 }
@@ -192,6 +192,12 @@
   {
     width: 42%;
     height: 100%;
+    /* background-color: #006284; */
+    position: absolute;
+    background-image: url("post.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   @media (max-width: 768px) {
@@ -228,7 +234,7 @@
   .posts
   {
     height: 100vh;
-    min-height: 500px;
+    min-height: 650px;
     background-color: #000000;
     position: relative;
   }
@@ -236,7 +242,7 @@
   .post_text
   {
     width: max-content;
-    position: absolute;
+    position: relative;
     top: 35%;
     left: 47%;
     color: #e7e3e3;
@@ -248,8 +254,8 @@
   @media (max-width: 1100px) {
     .post_img
     {
-      width: 60%;
-      height: 50%;
+      width: 60vw;
+      height: 40vw;
       border-radius: 20px;
       margin-top: -100px;
       align-self: center;
@@ -259,7 +265,7 @@
     .post_text
     {
       position: relative;
-      top: 80px;
+      top: 40vw;
       margin-left: -7%;
     }
 
@@ -330,7 +336,8 @@
   height: 87vh;
   border-radius: 10px;
   text-align: center;
-  min-height: 250px;
+  min-height: 30vh;
+  max-height: 700px;
   z-index: 1000;
 }
 
@@ -369,7 +376,7 @@ svg path:hover
     cursor: pointer;
 }
 
-@media (max-width: 550px)
+@media (max-width: 650px)
 {
   .Text
   {
@@ -378,7 +385,13 @@ svg path:hover
 
   .modal-content
   {
-    height: 10vh;
+    height: 20vh;
+  }
+
+  .posts
+  {
+    height: 40vw;
+    min-height: 400px;
   }
 
 }

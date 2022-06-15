@@ -3,9 +3,6 @@
     height: 100vh;
     width: 100%;
     min-height: 500px;
-    /* background-image: url("background-blur.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .dropbtn:hover {
@@ -102,26 +99,7 @@
     font-size: 20px;
     font-weight: 700;
   }
-  
-  
-  /* .media-icons {
-    text-align: center;
-    line-height: 33px;
-    height: 35px;
-    width: 35px;
-    margin: 0 4px;
-    font-size: 14px;
-    color: #FFF;
-    border-radius: 50%;
-    border: 2px solid transparent;
-    background: #FF676D;
-    transition: all 0.3s ease;
-  }
-  .media-icons {
-    color: #FF676D;
-    background-color: #fff;
-    border-color: #FF676D;
-  } */
+
    .container .button{
     width: 100%;
     display: flex;
@@ -228,12 +206,6 @@
       width: 100%;
     }
   }
-  
-  
-  .cards
-  {
-    z-index: 999;
-  }
 
   .footer
   {
@@ -312,14 +284,7 @@
     }
   }
 
-  @media (max-width: 550px)
-  {
-    .Text
-    {
-      font-size: 25px;
-    }
-  }
-
+  
   .First
   {
     border-radius: 38%;
@@ -345,7 +310,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 5vh; /* Location of the box */
+  padding-top: 5vh; 
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -362,10 +327,11 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  height: 80vh;
+  height: 87vh;
   border-radius: 10px;
   text-align: center;
-  min-height: 520px;
+  min-height: 250px;
+  z-index: 1000;
 }
 
 /* The Close Button */
@@ -385,8 +351,8 @@
 
 svg
 {
-  height: 90%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 svg path
@@ -402,3 +368,18 @@ svg path:hover
     transition: 0.3s;
     cursor: pointer;
 }
+
+@media (max-width: 550px)
+{
+  .Text
+  {
+    font-size: 25px;
+  }
+
+  .modal-content
+  {
+    height: 10vh;
+  }
+
+}
+

@@ -1,0 +1,76 @@
+.BG_img
+{
+    height: 100vh;
+}
+
+.TEXT
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.IMAGES
+{
+    height: 500px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+}
+
+.IMG
+{
+  height: 100%;
+  margin: 3px;
+}
+
+.IMG_ONE
+{
+  width: calc(100%/2.4);
+}
+
+.IMG_TWO
+{
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/3);
+}
+
+.footer
+  {
+    height: 65px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+  }
+
+::selection{
+  background-color: rgb(72, 125, 81);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(32, 94, 47);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(32, 61, 33);
+  }

@@ -336,7 +336,7 @@
   height: 87vh;
   border-radius: 10px;
   text-align: center;
-  min-height: 30vh;
+  min-height: 55vw;
   max-height: 700px;
   z-index: 1000;
 }

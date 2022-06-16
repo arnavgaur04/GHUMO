@@ -19,6 +19,7 @@
   transform: translate(-50%,-50%);
   color: #ffffff;
   text-align: center;
+  font-family: 'newake';
 }
 
 .IMAGES
@@ -109,6 +110,7 @@
 
 ::selection{
   background-color: rgb(72, 125, 81);
+  color: #f1f1f1;
 }
 
 @media (max-width: 900px)

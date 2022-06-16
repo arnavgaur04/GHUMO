@@ -115,6 +115,11 @@ body::-webkit-scrollbar {
   {
     height: 300px;
   }
+
+  .cards
+  {
+    height: 310px;
+  }
   
   .card:hover
   {

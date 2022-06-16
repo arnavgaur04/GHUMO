@@ -1,6 +1,14 @@
 .BG_img
 {
-    height: 100vh;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 1000px;
+  background-image: url("bgnew1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  position: relative;
 }
 
 .TEXT
@@ -9,8 +17,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 30px;
   color: #ffffff;
+  text-align: center;
 }
 
 .IMAGES
@@ -39,6 +47,49 @@
   display: flex;
   flex-direction: column;
   width: calc(100%/3);
+  height: 100%;
+}
+
+.IMG_THREE
+{
+  width: calc(100%/3);
+  position: relative;
+  height: 100%;
+}
+
+.img_one
+{
+  height: 50%;
+  margin-bottom: 3px;
+}
+
+.img_two
+{
+  height: 49%;
+  margin-top: 3px;
+}
+
+.add
+{
+  position: absolute;
+  background-color: black;
+  opacity: 0%;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.add:hover
+{
+  opacity: 70%;
+}
+
+.IMAGE
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .footer
@@ -50,8 +101,73 @@
     margin-top: 200px;
   }
 
+.inspired
+{
+  font-size: 2.5vw;
+  font-weight: bolder;
+}
+
 ::selection{
   background-color: rgb(72, 125, 81);
+}
+
+@media (max-width: 900px)
+{
+  .BG_img
+  {
+    max-height: 700px;
+  }
+
+  .TEXT
+  {
+    margin-top: -30%;
+  }
+
+  .IMAGES
+  {
+    width: 70vw;
+    height: 50vw;
+  }
+
+  .inspired
+  {
+    font-size: 20px;
+  }
+
+  .IMG_ONE
+  {
+    display: none;
+    width: 0;
+  }
+
+  .IMG_TWO
+  {
+    width: calc(100%/2);
+    height: 100%;
+  }
+
+  .IMG_THREE
+  {
+    /* display: flex;
+    flex-direction: column; */
+    width: calc(100%/2);
+    height: 100%;
+  }
+
+  .img_one
+  {
+    border-radius: 10px 0 0 0;
+    height: 48%;
+    margin-bottom: 4px;
+  }
+  
+  .img_two
+  {
+    border-radius: 0 0 0 10px;
+    height: 51%;
+    margin-top: 2px;
+  }
+
 }
 
 /* width */

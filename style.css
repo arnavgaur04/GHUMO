@@ -214,6 +214,11 @@ body::-webkit-scrollbar {
       margin: 20px 0 10px 0;
       width: calc(100% / 2 - 10px);
     }
+
+    .cards
+    {
+      height: 1150px;
+    }
   }
   @media (max-width: 600px) {
     .main-card .cards .card{

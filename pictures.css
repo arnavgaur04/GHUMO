@@ -138,6 +138,7 @@
         background-size: cover;
         height: 60vh;
         width: 100%;
+        min-height: 300px;
     }
 
     .top_text
@@ -156,6 +157,7 @@
         background-size: cover;
         height: 40vh;
         width: 100%;
+        min-height: 200px;
     }
 
     .top_text

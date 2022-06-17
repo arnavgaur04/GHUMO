@@ -1,8 +1,27 @@
 .top
 {
-    text-align: center;
-    margin-top: 30px;
-    color: #565656;
+  height: 100vh;
+  /* min-height: 500px; */
+  max-height: 1000px;
+  background-image: url("taking_a_picture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 5vw;
+}
+
+.img_top
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.top_text
+{
+    position: absolute;
+    color: aliceblue;
+    top: 42%;
+    left: 5%;
 }
 
 .IMAGES
@@ -104,4 +123,49 @@
     background: rgb(0, 0, 0);
   }
 
+  @media (max-width: 800px)
+  {
+    .top
+    {
+        font-size: 6vw;
+    }
+  }
+  
+  @media (max-width: 860px)
+  {
+    .top
+    {
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .top_text
+    {
+        position: absolute;
+        color: aliceblue;
+        top: 32%;
+        left: 5%;
+    }   
+  }
+  
+  @media (max-width: 620px)
+  {
+    .top
+    {
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+    }
+
+    .top_text
+    {
+        position: absolute;
+        color: aliceblue;
+        top: 22%;
+        left: 5%;
+    }   
+  }
+  
+ 
 

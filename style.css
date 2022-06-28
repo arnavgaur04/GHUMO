@@ -389,6 +389,11 @@ svg path:hover
     {
       top: 30%;
     }
+
+    .shared
+    {
+      margin-left: -7%;
+    }
   }
 
 @media (max-width: 650px)

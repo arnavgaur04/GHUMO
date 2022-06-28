@@ -9,21 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-
-</head>
-<body style="margin: 0px;font-family: 'Secular One';font-size: 3vw;overflow-x: hidden;">
+    
+  </head>
+  <body style="margin: 0px;font-family: 'Secular One';font-size: 3vw;overflow-x: hidden;">
     
     <div class="top">
       <img src="backgroundnew.jpg" style="height: 100%; width: 100%;">
     </div>
     
-        <button id="myBtn" class="dropbtn">LOCATION</button>
-        <div id="myModal" class="modal">
-
-            <div class="modal-content">
+    <button id="myBtn" class="dropbtn">LOCATION</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
               <span class="close">&times;</span>
               <p style="color: #565656;font-size: 15px;">Select a destination</p>
-
+              
               <svg baseprofile="tiny" stroke-linecap="round" stroke-linejoin="round" version="1.2" viewbox="0 0 2000 857" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1383 261.6l1.5 1.8-2.9 0.8-2.4 1.1-5.9 0.8-5.3 1.3-2.4 2.8 1.9 2.7 1.4 3.2-2 2.7 0.8 2.5-0.9 2.3-5.2-0.2 3.1 4.2-3.1 1.7-1.4 3.8 1.1 3.9-1.8 1.8-2.1-0.6-4 0.9-0.2 1.7-4.1 0-2.3 3.7 0.8 5.4-6.6 2.7-3.9-0.6-0.9 1.4-3.4-0.8-5.3 1-9.6-3.3 3.9-5.8-1.1-4.1-4.3-1.1-1.2-4.1-2.7-5.1 1.6-3.5-2.5-1 0.5-4.7 0.6-8 5.9 2.5 3.9-0.9 0.4-2.9 4-0.9 2.6-2-0.2-5.1 4.2-1.3 0.3-2.2 2.9 1.7 1.6 0.2 3 0 4.3 1.4 1.8 0.7 3.4-2 2.1 1.2 0.9-2.9 3.2 0.1 0.6-0.9-0.2-2.6 1.7-2.2 3.3 1.4-0.1 2 1.7 0.3 0.9 5.4 2.7 2.1 1.5-1.4 2.2-0.6 2.5-2.9 3.8 0.5 5.4 0z" id="AF" name="Afghanistan">
                 </path>
@@ -975,7 +974,6 @@
 
             </div>
         </div>
-
       <div class="Text">
           Our Recommendations.
       </div>
@@ -1061,41 +1059,12 @@
           </div>
         </div>
       </div>
-      
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-</script>
 
   <div class="posts" style="font-size: .4em;margin-top: 150px;">
       <div class="post_img">
       </div>
       <div class="post_text">
-          <b>SHARE YOUR</b><br>
+          <b class="shared">LOOK AT SHARED</b><br>
           <h1 style="color: #5fc9df;" class="adven"><a href="adventures.html" style="color: #5fc9df;">ADVENTURES</a></h1>
       </div>
   </div>
@@ -1104,5 +1073,8 @@ window.onclick = function(event) {
       <a href="https://github.com/arnavgaur04" target="_blank"><img src="GitHub-Mark.png" height="25px" style="margin-left: 20px;"></a>
       <a href="https://twitter.com/AGaur_21" target="_blank"><img src="twiter-logo.png" height="25px" style="margin-left: 20px;"></a>
   </div>
+
+  <script src="myScript.js"></script>
+
 </body>
 </html>

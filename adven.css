@@ -188,11 +188,6 @@
   font-weight: bolder;
 }
 
-::selection{
-  background-color: #9a9a9a;
-  color: #f1f1f1;
-}
-
 .uploading
 {
   width: 90vw;

@@ -81,13 +81,13 @@
 
 .submit
 {
+    margin-top:200px;
     height: 400px;
     text-align: center;
 }
 
 .submission_button
 {
-    margin-top:200px;
     height: 70px;
     width: 250px;
     font-size: 30px;
@@ -311,7 +311,7 @@
 .tag {
     font-family: inherit;
     font-size: 15px;
-    background: royalblue;
+    background: rgb(82, 151, 204);
     color: white;
     padding: 0.7em 1em;
     padding-left: 0.9em;

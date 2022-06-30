@@ -71,6 +71,7 @@ body::-webkit-scrollbar {
     background: transparent;
   }
 
+
   .container{
     /* max-width: 950px; */
     width: 100vw;
@@ -325,6 +326,11 @@ body::-webkit-scrollbar {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.shared
+{
+  color: white;
 }
 
 svg
